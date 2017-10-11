@@ -1,7 +1,13 @@
-
 # Stórt verkefni
-## Vefforritun
-### Október 2017
+## Vefforritun - TÖL107G
+##### Október 2017
+## Verkefni unnið af:
+| Nafn   |      Email  |  Slack |
+|----------|:-------------:|------:|
+| Davíð Freyr Björnsson |  dfb2@hi.is | dfb2 |
+| Guðmundur Ólafsson    |  ???      |   gudmundur |
+| Helga Lára            | hlg29@hi.is |    hlg29 |
+| Hrafnkell Sigurðarson | hrs70@hi.is |    hrs70 |
 ###  1. Almennt
  #### Gera 4 síður með HTML (klára fyrir lok þriðjudags 9. október)
      (a) Forsíða (index.html)
@@ -24,6 +30,6 @@
 
 ### 5. Aðrir punktar:
 * Dæmatímakennarinn Ketill sagið mér síðan að það væri síðan hægt að nota import skipun til aðfá nákvæmlega það útlit sem við viljum á tilteknu elementi.
-Hann mælti einnig með því að geramobile útgáfu fyrst (þar sem takmarkanirnar eru mestar).
+ Hann mælti einnig með því að geramobile útgáfu fyrst (þar sem takmarkanirnar eru mestar).
 * Hér hjálpar kannski líka að nota BEM klasa.
 * Muna að keyra stylelint áður en við gerum git pull.
