@@ -1,0 +1,23 @@
+{
+  "name": "stortverkefni",
+  "version": "1.0.0",
+  "description": "Stórt verkefni í vefforritun TÖL107G",
+  "main": "index.js",
+  "scripts": {
+	"lint": "stylelint *.scss scss/*.scss --syntax scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/7415963987456321/stortverkefni.git"
+  },
+  "keywords": [
+    "Vefforritun",
+    "verkefni",
+    "dfb2",
+    "gudmundur",
+    "hlg29",
+    "hrs70"
+  ],
+  "author": "hrs70 dfb2 gudmundur hlg29",
+  "license": "MIT"
+}
