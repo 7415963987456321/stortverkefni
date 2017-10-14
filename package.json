@@ -4,7 +4,10 @@
   "description": "Stórt verkefni í vefforritun TÖL107G",
   "main": "index.js",
   "scripts": {
-	"lint": "stylelint *.scss scss/*.scss --syntax scss"
+	"sass": "node-sass styleguide.scss styles.css -w",
+    "browser-sync": "browser-sync start --server --files index.html",
+	"dev": "npm-run-all --parallel sass browser-sync",
+    "lint": "stylelint *.scss scss/*.scss --syntax scss"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,13 @@
     "hrs70"
   ],
   "author": "hrs70 dfb2 gudmundur hlg29",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "npm-run-all": "^4.1.1"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "stylelint-config-primer": "^2.1.0"
+  }
 }
