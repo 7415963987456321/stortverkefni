@@ -1,0 +1,11 @@
+$max-width: 1200px;
+$gutter: 20px;
+main{
+	max-width: $max-width;
+}
+
+html{
+	margin-right: $gutter;
+	margin-left: $gutter;
+}
+
