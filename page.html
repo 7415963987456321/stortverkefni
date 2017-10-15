@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="is">
 <head>
   <meta charset="utf-8">
@@ -16,80 +16,90 @@
 		<h1>Kaupa</h1>
 	</div>
 		<img src="/gogn/bg.jpg" alt="" class="bg__img">
-	<div class="kaupa">
-		<button class="button">Kaupa</button>
-	</div>
+
 </header>
 
 <main>
     <!-- Aðaldót fer hér -->
+<div class="hægri">
 
-<div class="menubarTop">
-	<nav>
-		<ul>
-			<li>Um</li>
-		</ul>
-		  <ul>
-			<li>Kaupa</li>
-		</ul>
-	</nav>
+  <h3>Persónuupplýsingar</h3>
+  <div class="nafn">
+    <label for="name">Nafn:</label>
+    <input type="text" name="nafn" id="name" required  />
+  </div>
+  <div class="kennitala">
+    <label for="kennitala">Kennitala:</label>
+    <input type="number" name="kennitala" id="kennitala" placeholder="123456-7890"/>
+  </div>
+  <div class="radio-button">
+    <label for="Kyn">Kyn:</label>
+    <label>
+      <input name="kyn" type="radio" value="Kona" />
+      Kona
+    </label>
+    <label>
+      <input name="kyn" type="radio" value="Karl" />
+      Karl
+    </label>
+    <label>
+      <input name="kyn" type="radio" value="Annað" />
+      Annað
+    </label>
+    <div class="sími">
+      <label for="sími">Sími:</label>
+      <input type="number" name="sími" id="sími" placeholder="+354 812 3456"/>
+    </div>
+    <div class="heimilisfang">
+      <label for="heimilisfang">Heimilisfang:</label>
+      <input type="text" name="heimilisfang" id="heimilisfang" required  />
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" name="box" value="póstlisti" checked id="cbox" />
+      <label for="cbox">Skrá mig á póstlista</label>
+    </div>
 </div>
-
-<div class="meginmal">
-
-
-<section>
-<div class="upplysingar">
-	<img src="/gogn/image.jpg" alt="" class="upplysingar__img">
-	<div class="efni">
-		<h2 class=fyrirsogn>Ódýr og góð þjónusta</h2>
-		<p class=efni>Gerir nákvæmlega það sem þú býst við. Ekki láta þessa frábæru nýjung framhjá þér fara.</p>
-	</div>
-
-	<div class="efni">
-		<h2 class=fyrirsogn>Þægilegt í amstri dagsins</h2>
-		<p class=efni>Eftir nokkra daga munt þú aldrei geta verið án Fooþjónustunnar.</p>
-	</div>
-
-	<div class="efni">
-		<h2 class=fyrirsogn>Nauðsynlegt á hvert heimili</h2>
-		<p class=efni>Hvort sem er fyrir einstaklinga eða stórfjölskyldur.</p>
-	</div>
+<div class="vinstri">
+  <h3>Greiðsluupplýsingar</h3>
+  <div class="Greiðsla">
+    <label for="Greiðslu-button">Greiða með:</label>
+    <select name="Greiðsla" id="Greiðslu-button">
+      <option value="Kreditkorti">Kreditkorti</option>
+      <option value="Millifærslu">Millifærslu</option>
+      <option value="Reiðufé">Reiðufé</option>
+    </select>
+  </div>
+  <div class="Kortanúmer">
+    <label for="Kortanúmer">Kortanúmer:</label>
+    <input type="number" name="Kortanúmer" id="Kortanúmer" placeholder="5999-9999-9999-9999" required  />
+  </div>
+  <div name="Gildistími">
+    <label for="mán">Mán</label>
+    <select name="mán" id="mán-button">
+      <option value="01">01</option>
+      <option value="02">02</option>
+      <option value="03">03</option>
+      <option value="04">04</option>
+      <option value="05">05</option>
+      <option value="06">06</option>
+      <option value="07">07</option>
+      <option value="08">08</option>
+      <option value="09">09</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+    <label for="ár">Ár</label>
+    <select name="Ár" id="Ár-button">
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+    </select>
+  </div>
 </div>
-
-
-
-</section>
-
-
-
-
-<div class="kaupa">
-	<p>Eftir hverju ert þú að bíða?</p>
-	<button class="button">Kaupa</button>
+<div class="panta">
+  <button class="button">Panta</button>
 </div>
-</section>
-
-</main>
-
-  <nav>
-	<!-- meira dót -->
-  </nav>
-
-<footer>
-<!-- footer dót -->
-	<div class="uppl">
-		<p>Fooþjónustan</p>
-		<p>123-4567</p>
-	</div>
-	
-	<div class="uppl">
-		<p>Opið 12-13 alla daga</p>
-		<p>Bargata 1</p>
-		<p>900 Foobar</p>
-		<p>© Fooþjónustan 2017</p>
-	</div>
-</footer>
-
 </body>
 </html>
