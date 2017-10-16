@@ -1,15 +1,30 @@
 $max-width: 1200px;
 $gutter: 20px;
-main{
-	max-width: $max-width;
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-html{
-	margin-right: $gutter;
-	margin-left: $gutter;
-	font-family: 'Roboto Slab', serif;
+main {
+  max-width: $max-width;
+  margin-right: $gutter;
+  margin-left: $gutter;
+}
+
+html {
+
+  font-family: "Roboto Slab", serif;
 
 }
-footer{
-	background-color: gray;
+
+footer {
+  background-color: gray;
 }
+
+@import "scss/button.scss";
+@import "scss/card.scss";
+@import "scss/cardlist.scss";
+@import "scss/grid.scss";
+@import "scss/heading.scss";
+@import "scss/header.scss";
