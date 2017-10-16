@@ -4,7 +4,7 @@
   "description": "Stórt verkefni í vefforritun TÖL107G",
   "main": "index.js",
   "scripts": {
-	"sass": "node-sass styleguide.scss styles.css -w",
+	"sass": "node-sass --source-map-embed --watch styleguide.scss styles.css",
     "browser-sync": "browser-sync start --server --files index.html",
 	"dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint *.scss scss/*.scss --syntax scss"
