@@ -4,9 +4,9 @@
   "description": "Stórt verkefni í vefforritun TÖL107G",
   "main": "index.js",
   "scripts": {
-	"sass": "node-sass --source-map-embed --watch styleguide.scss styles.css",
+    "sass": "node-sass --source-map-embed --watch styleguide.scss styles.css",
     "browser-sync": "browser-sync start --server --files *.html --index forsida.html",
-	"dev": "npm-run-all --parallel sass browser-sync",
+    "dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint *.scss scss/*.scss --syntax scss"
   },
   "repository": {
