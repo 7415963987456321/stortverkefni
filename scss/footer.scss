@@ -1,0 +1,24 @@
+footer{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 2em;
+  background-color: #353331;
+  .Info{
+	display: flex;
+    text-align: center;
+    padding-bottom: 4em;
+    border-bottom: solid;
+    border-bottom-color: gainsboro;
+    margin-bottom: 2em;
+  }
+  .uppl{
+	margin: auto;
+    min-width: 50%;
+	
+	}
+	.Disclaimer{
+	    text-align: center;
+    font-family: none;
+	}
+}
