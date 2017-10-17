@@ -1,3 +1,9 @@
 .cardlist {
   display: flex;
+  text-align: center;
+  flex-direction: row;
+
+  &__row {
+    display: inherit;
+  }
 }

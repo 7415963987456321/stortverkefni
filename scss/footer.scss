@@ -1,24 +1,26 @@
-footer{
+footer {
   display: flex;
-  flex-direction: column;
-  color: white;
   padding: 2em;
+  color: white;
+  flex-direction: column;
   background-color: #353331;
-  .Info{
-	display: flex;
-    text-align: center;
+ 
+  .Info {
+    display: flex;
     padding-bottom: 4em;
+    margin-bottom: 2em;
     border-bottom: solid;
     border-bottom-color: gainsboro;
-    margin-bottom: 2em;
+    text-align: center;
   }
-  .uppl{
-	margin: auto;
+
+  .uppl {
     min-width: 50%;
-	
-	}
-	.Disclaimer{
-	    text-align: center;
+    margin: auto;
+  }
+
+  .Disclaimer {
     font-family: none;
-	}
+    text-align: center;
+  }
 }
