@@ -4,115 +4,144 @@
 <head>
   <meta charset="utf-8">
   <title>Stórt Verkefni</title>
-  <link rel="stylesheet" href="/styles.css">
+  <!--<link rel="stylesheet" href="/styles.css"> -->
   <link rel="Github" href="https://github.com/7415963987456321/stortverkefni">
   <meta name="description" content="Beinagrind">
   <meta name="viewport" content="width=device-width" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
 </head>
 
-<body class="index">
 
-  <header>
-    <div class="menubarTop">
-      <nav>
-        <ul style="list-style-type:none">
-          <li>Um</li>
-          <li>Kaupa</li>
-        </ul>
-      </nav>
-    </div>
-    <div>
-      <h2>Í fyrsta skipti á Íslandi</h2>
-      <h1>Fooþjónustan</h1>
-      <button class="button">Kaupa</button>
-    </div>
-  </header>
+<header>
+  <div class="menubarTop">
+    <nav>
+      <ul style="list-style-type:none">
+        <li>Um</li>
+        <li>Kaupa</li>
+      </ul>
+    </nav>
+  </div>
+  <div>
+    <h2 class="h2_forsida">Í fyrsta skipti á Íslandi</h2>
+    <h1>Fooþjónustan</h1>
+    <button class="button">Kaupa</button>
+  </div>
+</header>
 
-  <main>
-    <!-- Aðaldót fer hér -->
+<main>
+  <!-- Aðaldót fer hér -->
 
-    <section>
-      <div class="upplysingar">
-        <img src="/gogn/image.jpg" alt="" class="upplysingar__img">
-        <div class="efni">
-          <h2 class=fyrirsogn>Ódýr og góð þjónusta</h2>
-          <p class=efni>Gerir nákvæmlega það sem þú býst við. Ekki láta þessa frábæru nýjung framhjá þér fara.</p>
-        </div>
+  <section>
 
-        <div class="efni">
-          <h2 class=fyrirsogn>Þægilegt í amstri dagsins</h2>
-          <p class=efni>Eftir nokkra daga munt þú aldrei geta verið án Fooþjónustunnar.</p>
-        </div>
-
-        <div class="efni">
-          <h2 class=fyrirsogn>Nauðsynlegt á hvert heimili</h2>
-          <p class=efni>Hvort sem er fyrir einstaklinga eða stórfjölskyldur.</p>
-        </div>
+    <div class="card card--wide">
+      <div class="card__image">
+        <img src="/gogn/image.jpg" alt="" class="card__img">
       </div>
+      <div class="card__content">
 
+        <h3 class="card__heading">Ódýr og góð þjónusta</h3>
+        <ul class="custom_bullet_points">
+          <li class="card_text">Gerir nákvæmlega það sem þú býst við. Ekki láta þessa frábæru nýjung framhjá þér fara.</li>
+        </ul>
 
-      <!--
+        <h3 class="card__heading">Þægilegt í amstri dagsins</h3>
+        <ul class="custom_bullet_points">
+          <li class="card_text">Eftir nokkra daga munt þú aldrei geta verið án Fooþjónustunnar.</li>
+        </ul>
+
+        <h3 class="card__heading">Nauðsynlegt á hvert heimili</h3>
+        <ul class="custom_bullet_points">
+          <li class="card_text">Hvort sem er fyrir einstaklinga eða stórfjölskyldur.</li>
+        </ul>
+
+      </div>
+    </div>
+
+    <!--
 Hvert á þessi texti að fara?
 
 		Kaupa! Núna! Strax!
 
 //-->
-    </section>
+  </section>
 
-    <section>
-      <div class="medmaeli">
-        <div class="efni">
-          <img src="/gogn/profile1.jpg" alt="" class="efni__img">
-          <h2 class="umsogn">„Ég get engan vegið hugsað mér lífið án þessarar þjónustu!“</h2>
-          <p class="nafn">Anna Jóns</p>
-          <p class="askrifandi">Áskrifandi í þrjá mánuði</p>
+  <section>
+    <div class="cardlist">
+      <div class="cardlist__row">
+
+        <div class="cardlist__col">
+          <div class="card">
+            <div class="card__image">
+              <img src="/gogn/profile1.jpg" alt="" class="card__img">
+            </div>
+            <div class="card__content">
+              <h3 class="card__heading">„Ég get engan vegið hugsað mér lífið án þessarar þjónustu!“</h3>
+              <p class="card__text__name">Anna Jóns</p>
+              <p class="card__text__subscriber">Áskrifandi í þrjá mánuði</p>
+            </div>
+          </div>
         </div>
 
-        <div class="efni">
-          <img src="/gogn/profile2.jpg" alt="" class="efni__img">
-          <h2 class="umsogn">„Vá, þetta breytir öllu!“</h2>
-          <p class="nafn">Siggi Páls</p>
-          <p class="askrifandi">Áskrifandi í tvo daga</p>
+        <div class="cardlist__col">
+          <div class="card">
+            <div class="card__image">
+              <img src="/gogn/profile2.jpg" alt="" class="card__img">
+            </div>
+            <div class="card__content">
+              <h3 class="card__heading">„Vá, þetta breytir öllu!“</h3>
+              <p class="card__text__name">Siggi Páls</p>
+              <p class="card__text__subscriber">Áskrifandi í tvo daga</p>
+            </div>
+          </div>
         </div>
 
-        <div class="efni">
-          <img src="/gogn/profile3.jpg" alt="" class="efni__img">
-          <h2 class="umsogn">„A+++, mun aldrei hætta í áskrift“</h2>
-          <p class="nafn">Jón Guðrúnarson</p>
-          <p class="askrifandi">Áskrifandi í ár</p>
+        <div class="cardlist__col">
+          <div class="card">
+            <div class="card__image">
+              <img src="/gogn/profile3.jpg" alt="" class="card__img">
+            </div>
+            <div class="card__content">
+              <h3 class="card__heading">„A+++, mun aldrei hætta í áskrift“</h3>
+              <p class="card__text__name">Jón Guðrúnarson</p>
+              <p class="card__text__subscriber">Áskrifandi í ár</p>
+            </div>
+          </div>
         </div>
+
+        <div class="cardlist__col">
+          <div class="card">
+            <div class="card__content">
+              <h3 class="card__heading">Eftir hverju ert þú að bíða?</h3>
+              <button class="button">Kaupa</button>
+            </div>
+          </div>
+        </div>
+
       </div>
-
-
-      <div class="kaupa">
-        <p>Eftir hverju ert þú að bíða?</p>
-        <button class="button">Kaupa</button>
-      </div>
-    </section>
-
-
-  </main>
-
-  <nav>
-    <!-- meira dót -->
-  </nav>
-
-  <footer>
-    <!-- footer dót -->
-    <div class="uppl">
-      <p>Fooþjónustan</p>
-      <p>123-4567</p>
     </div>
 
-    <div class="uppl">
-      <p>Opið 12-13 alla daga</p>
-      <p>Bargata 1</p>
-      <p>900 Foobar</p>
-      <p>© Fooþjónustan 2017</p>
-    </div>
-  </footer>
+  </section>
 
-</body>
+
+</main>
+
+<nav>
+  <!-- meira dót -->
+</nav>
+
+<footer>
+  <!-- footer dót -->
+  <div>
+    <p>Fooþjónustan</p>
+    <p>123-4567</p>
+  </div>
+
+  <div>
+    <p>Opið 12-13 alla daga</p>
+    <p>Bargata 1</p>
+    <p>900 Foobar</p>
+    <p>© Fooþjónustan 2017</p>
+  </div>
+</footer>
 
 </html>
