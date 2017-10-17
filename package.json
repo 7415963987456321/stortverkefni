@@ -25,7 +25,9 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.13",
-    "npm-run-all": "^4.1.1"
+    "npm-run-all": "^4.1.1",
+    "stylelint": "^8.2.0",
+    "stylelint-order": "^0.7.0"
   },
   "dependencies": {
     "node-sass": "^4.5.3",
