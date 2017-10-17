@@ -5,6 +5,14 @@
   max-width: 800px;
   overflow: hidden;
   border-radius: 3px;
+
+  &__row {
+    flex-direction: row;
+  }
+
+  &__column {
+    flex-direction: column;
+  }
 }
 
 .card__heading {
@@ -25,7 +33,16 @@
 }
 
 .card__img {
-  width: 100%;
+  width: 50%;
   min-width: 200px;
   max-width: 100%;
+}
+
+.card--wide {
+  display: flex;
+  flex-direction: row;
+
+  .card__img {
+    width: 100%;
+  }
 }

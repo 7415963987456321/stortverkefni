@@ -5,5 +5,11 @@
 
   &__row {
     display: inherit;
+    flex-direction: row;
+  }
+
+  &__column {
+    display: inherit;
+    flex-direction: column;
   }
 }
