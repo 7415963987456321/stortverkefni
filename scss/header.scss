@@ -37,16 +37,24 @@ header {
       animation: header_forsida 1s;
     }
   }
+  .um {
+    h1 {
+      font-size: 4em;
+      color: white;
+    }
+  }
 }
 
 @keyframes header_forsida {
   0% {
-    color: transparent; 
+    color: transparent;
     }
   100% {
     color: black;
   }
 }
+
+
 
 .menubarTop {
   position: fixed;
