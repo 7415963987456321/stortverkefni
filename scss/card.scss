@@ -2,7 +2,6 @@
   display: inline-block;
   width: 100%;
   min-width: 200px;
-  max-width: 800px;
   overflow: hidden;
   border-radius: 3px;
 
@@ -11,6 +10,10 @@
   }
 
   &__column {
+    flex-direction: column;
+  }
+  
+  @media screen and (max-width: 900px){
     flex-direction: column;
   }
 }
@@ -37,15 +40,16 @@
   min-width: 200px;
   max-width: 100%;
   &--circular {
-	border-radius: 150px; 
-	max-width: 300px;
+	border-radius: 100%; 
   } 
 }
 
 .card--wide {
   display: flex;
   flex-direction: row;
-
+@media screen and (max-width: 900px){
+    flex-direction: column;
+  }
   .card__img {
     width: 100%;
   }
