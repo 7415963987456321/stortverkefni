@@ -8,8 +8,7 @@ $gutter: 20px;
 
 main {
   max-width: $max-width;
-  margin-right: $gutter;
-  margin-left: $gutter;
+  margin: 8*$gutter $gutter 8*$gutter $gutter
 }
 
 html {

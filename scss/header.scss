@@ -1,13 +1,11 @@
 header {
   display: flex;
+  width: 100%;
+  min-height: 500px;
   margin: auto;
   align-items: center;
-  
-  width: 100%;
   background: transparent url("/gogn/bg.jpg") no-repeat fixed 50% 50%;
   background-size: cover;
-  min-height: 500px;
-
 
   .about & {
     background-image: url("/gogn/bg-subpage.jpg");
@@ -20,31 +18,42 @@ header {
   .page & {
     background-image: url("/gogn/bg-subpage.jpg");
   }
-  .forsida{
-	justify-content: center;
-	text-align: center;
-	margin: inherit;
-	h1, h2{
-		margin-bottom: 1em;
-	}
+
+  .forsida {
+    justify-content: center;
+    margin: inherit;
+    text-align: center;
+
+    h1 {
+      margin-bottom: 1em;
+      font-size: 4em;
+      animation: header_forsida 2s;
+    }
+
+    h3 {
+      margin-bottom: 1em;
+      font-size: 2em;
+      animation: header_forsida 1s;
+    }
   }
 }
 
-
 @keyframes header_forsida {
   0% {
-    color: transparent; }
+    color: transparent; 
+    }
   100% {
-    color: black; } }
+    color: black;
+  }
+}
 
 .menubarTop {
   position: fixed;
   top: 0;
   width: 100%;
-  background:rgba(black, 0.7);
-  background-color: black;
   padding-right: 75px;
   overflow: hidden;
+  background-color: rgba(black, 0.7);
 }
 
 .menubarTop a {
