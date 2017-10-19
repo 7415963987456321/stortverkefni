@@ -25,17 +25,18 @@
 
 ## Uppsetning verkefnis
 ### HTML
-* index.html
-
 Forsíða fyrir Fooþjónustuna
 
-* um.html
+* index.html
 
 Undirsíða með upplýsingum um Fooþjónustuna
 
-* kaupa.html
+* um.html
 
 Undirsíða til þess að kaupa þjónustu Fooþjónustunnar
+
+* kaupa.html
+
 ### CSS
 Útlit síðunnar er í Styles.css
 ### SCSS
