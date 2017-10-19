@@ -1,6 +1,5 @@
 ﻿# Stórt verkefni 1
-## Vefforritun - TÖL107G
-##### Október 2017
+## Vefforritun - TÖL107G - Október 2017
 
 ## Verkefni unnið af:
 
@@ -15,10 +14,35 @@
 
 1. Til þess að keyra vefsíðuna þarf npm pakka til að keyra skipanir. Hann er settur upp með node.js sem hægt er að ná í á vefsíðunni https://nodejs.org/en/ 
 2. Keyrum í Command Promt
-3. Keyrum eftirfarandi skipanir
+3. Opna möppu sem inniheldur verkefni
+4. Keyrum eftirfarandi skipanir
 
-| Skipanir | Lýsing |
-|----------|--------|
-|'npm install' |    |
-|'npm run dev' | |
-|'npm run lint -s'| |
+    `npm install`
+    
+    `npm run dev`
+    
+    `npm run lint -s`
+
+## Uppsetning verkefnis
+### HTML
+* index.html
+
+Forsíða fyrir Fooþjónustuna
+
+* um.html
+
+Undirsíða með upplýsingum um Fooþjónustuna
+
+* kaupa.html
+
+Undirsíða til þess að kaupa þjónustu Fooþjónustunnar
+### CSS
+Útlit síðunnar er í Styles.css
+### SCSS
+Alla SCSS pakka má finna í möppunni SCSS
+### Myndir
+Allar myndir sem eru notaðar í verkefninu eru í möppunni Gögn
+
+
+    
+
