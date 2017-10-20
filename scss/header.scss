@@ -6,14 +6,10 @@ header {
   align-items: center;
   background: transparent url("gogn/bg.jpg") no-repeat fixed 50% 50%;
   background-size: cover;
+}
 
   .about & {
     background-image: url("gogn/bg-subpage.jpg");
-  }
-
-  .index & {
-    background-image: url("gogn/bg.jpg");
-	min-height: 110vmin;
   }
 
   .page & {
